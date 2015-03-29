@@ -1,0 +1,6 @@
+language: go
+
+go:
+  - 1.4
+
+install: go build -o nd github.com/garslo/notifyd/notifyd
